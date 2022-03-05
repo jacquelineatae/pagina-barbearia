@@ -1,0 +1,51 @@
+.title-principal {
+	padding-left: 20px;
+}
+
+#barbearia {
+	width: 100%;
+}
+
+.principal {
+	background: #CCCCCC;
+	padding: 30px
+}
+
+.center {
+  text-align: center
+}
+
+p {
+  text-align: center;
+}
+
+#missao {
+  font-size: 20px;
+}
+
+em strong {
+  color: red;
+}
+
+.itens {
+	font-style: italic;
+}
+
+.beneficios {
+	background:#FFFFFF;
+	padding:20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width:20%;
+	margin-right: 15%;
+}
+
+.imagemben {
+	width:50%;
+}
+
+
+

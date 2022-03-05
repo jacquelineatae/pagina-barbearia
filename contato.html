@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato - Barbearia Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src='https://www.barbearialisboa.com.br/imgs/logo.PNG' alt="Logo da Barbearia Alura"> </h1>
+                <nav>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <fieldset>
+                    <p>Como prefere o nosso contato?</p>
+                    <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                   
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+                </fieldset>
+
+                <div>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+
+                <label><input type="checkbox" class="checkbox" checked> Gostaria de receber nossas novidades por e-mail?</label>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <img src='https://www.barbearialisboa.com.br/imgs/logo.PNG' alt="Logo da Barbearia Alura">
+            <p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
+        </footer>
+    </body>
+    
+    <!– Quando adicionamos a propriedade required, o navegador nos ajuda a validar se aquele campo está preenchido.
+A propriedade placeholder é usada para adicionar um texto no campo, para sugerir a forma como o campo deve ser preenchido.
+! A propriedade checked é usada para que um campo já carregue marcado, para facilitar a vida do usuário ou até para sugerir que aquele campo seja preenchido.
+a tag fieldset. Ela é referente à configuração de um ou mais campos referentes a um assunto específico.
+dentro de um fieldset não temos parágrafos, nós temos o título, e o título de um fildset é chamado de legend.–>
+</html>
